@@ -52,8 +52,6 @@ export default {
             },
             v => {
                 const num = Number(v);
-                console.log(v);
-                console.log(num);
                 if (Number.isInteger(num) && num > 16) {
                     return true;
                 } else {
@@ -67,8 +65,6 @@ export default {
             },
             v => {
                 const num = Number(v);
-                console.log(v);
-                console.log(num);
                 if (Number.isInteger(num) && num > 0 && num < 100) {
                     return true;
                 } else {
